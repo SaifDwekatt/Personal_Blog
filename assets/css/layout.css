@@ -1,0 +1,41 @@
+.navbar {
+    display: grid;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    justify-items: center;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-li :hover {
+    color: white;
+}
+
+.nav-li {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+    color: white;
+}
+
+.nav-li a {
+    color: wheat;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin: 0px;
+    }
+}
