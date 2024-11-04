@@ -61,6 +61,7 @@
     font-size: large;
     align-content: center;
     height: 20px;
+    padding-bottom: 40PX;
     transition: background-color 0.3s ease;
 }
 
